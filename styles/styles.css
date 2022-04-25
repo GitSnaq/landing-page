@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header-container{
+    background-color: rgb(33, 41, 54);
+    height: 500px;
+    color: white;
+}
+
+
+.header-nav-container{
+    outline: 2px solid beige;
+    height: 75px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 32px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin-left: 16px;
+}
+.header-hero-container{
+    height: calc(100% - 75px);
+    background-color: red;
+
+}
