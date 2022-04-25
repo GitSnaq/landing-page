@@ -2,6 +2,7 @@ body{
     display: flex;
     flex-direction: column;
     height: 100vh;
+    flex: 1;
 }
 .first-section-container{
     display: flex;
@@ -78,12 +79,16 @@ body{
 .third-section{
     display: flex;
     justify-content: center;
-    align-items: center;
     height: 20%;
     background-color: #E5E7EA;
+    width: 80%;
+    align-self: center;
+    align-items: center;
 }
 .quote-container{
-    width: 60%;
+    display: flex;
+    align-items: center;
+    width: 70%;
 }
 .attribution{
     display: flex;
