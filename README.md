@@ -1,3 +1,2 @@
 # landing-page
-
-This is the landing-page project from the Odin Project and the goal will be to design a website somewhat similar to the design shown in the ''design-goals" folder using flexbox layout and also use the fonts and colors presented in the folder as well.
+This is the new README.md for the new branch where i will strive to do the same as the original main but simply better. Last project was poorly done for a multitude of reasons and i will try to not commit those same mistakes. It will be kept up though as a ref for improvement.
