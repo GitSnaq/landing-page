@@ -5,6 +5,8 @@
 }
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
 }
 
 .header-container{
@@ -123,6 +125,9 @@ a:hover{
 }
 .attribution{
     align-self: flex-end;
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 .action-container{
@@ -146,4 +151,19 @@ a:hover{
 .action-btn:hover{
     transform: scale(1.05);
     box-shadow: 10px 10px 10px darkblue;
+}
+
+.footer-container{
+    background-color: rgb(33, 41, 54);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 85%;
+    margin: 0 auto;
+    margin-top: auto;
+}
+.footer-text{
+    font-size: 20px;
+    color: white;
 }
