@@ -74,13 +74,52 @@ a{
 .random-text-container{
     min-height: 500px;
     width: 85%;
-    margin: 0 auto;
-    background-color: beige;
+    margin: 48px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     row-gap: 100px;
 }
 .four-pics{
+    width: 100%;
     display: flex;
+    gap: 125px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
+.pic-containers img{
+    width: 225px;
+    height: 225px;
+    border-radius: 10%;
+    box-shadow:10px 10px 10px;
+}
+.pic-text{
+    margin-top: 16px;
+    width: 225px;
+}
+a:hover{
+    color: blue;
+}
+button:hover{
+    transform: scale(1.05);
+    box-shadow: 10px 10px 10px;
+}
+
+.quote-container{
+    background-color: rgb(229, 231, 234);
+    height: 450px;
+    width: 55%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-container{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.attribution{
+    align-self: flex-end;
+}
+
