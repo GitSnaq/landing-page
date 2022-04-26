@@ -1,16 +1,17 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     display: flex;
     flex-direction: column;
     background-color: #effaf6;
 }
 
-.header-container{
+.header-container {
     background-color: rgb(33, 41, 54);
     min-height: 800px;
     width: 85%;
@@ -19,7 +20,7 @@ body{
 }
 
 
-.header-nav-container{
+.header-nav-container {
     height: 75px;
     display: flex;
     justify-content: space-around;
@@ -28,33 +29,37 @@ body{
     flex-wrap: wrap;
 }
 
-.header-logo{
+.header-logo {
     font-size: 32px;
 }
-a{
+
+a {
     text-decoration: none;
     color: white;
     margin-left: 16px;
 }
-.header-hero-container{
+
+.header-hero-container {
     min-height: 725px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
 }
-.header-hero-container .hero-text{
+
+.header-hero-container .hero-text {
     width: 750px;
     font-size: 48px;
     font-weight: 900;
 }
-.hero-subtext{
+
+.hero-subtext {
     font-size: 20px;
     font-weight: 300;
     line-height: 1.5;
 }
 
-.header-btn{
+.header-btn {
     display: flex;
     flex-wrap: wrap;
     width: 200px;
@@ -65,7 +70,7 @@ a{
     padding: 1px;
 }
 
-.header-img{
+.header-img {
     display: flex;
 }
 
@@ -76,7 +81,7 @@ a{
     padding: 10px;
 }
 
-.random-text-container{
+.random-text-container {
     min-height: 500px;
     width: 85%;
     margin: 48px auto;
@@ -85,32 +90,37 @@ a{
     align-items: center;
     row-gap: 100px;
 }
-.four-pics{
+
+.four-pics {
     width: 100%;
     display: flex;
     gap: 125px;
     flex-wrap: wrap;
     justify-content: center;
 }
-.pic-containers img{
+
+.pic-containers img {
     width: 225px;
     height: 225px;
     border-radius: 10%;
-    box-shadow:10px 10px 10px;
+    box-shadow: 10px 10px 10px;
 }
-.pic-text{
+
+.pic-text {
     margin-top: 16px;
     width: 225px;
 }
-a:hover{
+
+a:hover {
     color: blue;
 }
-.header-btn:hover{
+
+.header-btn:hover {
     transform: scale(1.05);
     box-shadow: 10px 10px 10px darkblue;
 }
 
-.quote-container{
+.quote-container {
     background-color: rgb(229, 231, 234);
     height: 450px;
     width: 55%;
@@ -119,19 +129,21 @@ a:hover{
     justify-content: center;
     align-items: center;
 }
-.text-container{
+
+.text-container {
     width: 60%;
     display: flex;
     flex-direction: column;
 }
-.attribution{
+
+.attribution {
     align-self: flex-end;
     background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
-    -webkit-background-clip: text;
     color: transparent;
+    -webkit-background-clip: text;
 }
 
-.action-container{
+.action-container {
     background-color: rgb(78, 128, 238);
     height: 200px;
     width: 45%;
@@ -140,21 +152,24 @@ a:hover{
     justify-content: space-around;
     align-items: center;
 }
-.left-action-text{
+
+.left-action-text {
     color: white;
 }
-.action-btn{
+
+.action-btn {
     background-color: rgb(78, 128, 238);
     color: white;
     padding: 5px;
     border-color: rgb(78, 128, 238);
 }
-.action-btn:hover{
+
+.action-btn:hover {
     transform: scale(1.05);
     box-shadow: 10px 10px 10px darkblue;
 }
 
-.footer-container{
+.footer-container {
     background-color: rgb(33, 41, 54);
     display: flex;
     justify-content: center;
@@ -164,7 +179,8 @@ a:hover{
     margin: 0 auto;
     margin-top: auto;
 }
-.footer-text{
+
+.footer-text {
     font-size: 20px;
     color: white;
 }
