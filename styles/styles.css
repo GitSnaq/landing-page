@@ -57,7 +57,9 @@ a{
     width: 200px;
     background-color: #3882F6;
     border-radius: 20%;
-    color: darkblue;
+    color: white;
+    border-color: rgb(33, 41, 54);
+    padding: 1px;
 }
 
 .header-img{
@@ -66,8 +68,8 @@ a{
 
 .header-img img {
     flex-shrink: 1;
-    height: 400px;
-    width: 600px;
+    height: 300px;
+    width: 450px;
     padding: 10px;
 }
 
@@ -100,16 +102,16 @@ a{
 a:hover{
     color: blue;
 }
-button:hover{
+.header-btn:hover{
     transform: scale(1.05);
-    box-shadow: 10px 10px 10px;
+    box-shadow: 10px 10px 10px darkblue;
 }
 
 .quote-container{
     background-color: rgb(229, 231, 234);
     height: 450px;
     width: 55%;
-    margin: 0 auto;
+    margin: 100px auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -123,3 +125,25 @@ button:hover{
     align-self: flex-end;
 }
 
+.action-container{
+    background-color: rgb(78, 128, 238);
+    height: 200px;
+    width: 45%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.left-action-text{
+    color: white;
+}
+.action-btn{
+    background-color: rgb(78, 128, 238);
+    color: white;
+    padding: 5px;
+    border-color: rgb(78, 128, 238);
+}
+.action-btn:hover{
+    transform: scale(1.05);
+    box-shadow: 10px 10px 10px darkblue;
+}
